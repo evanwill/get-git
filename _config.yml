@@ -1,0 +1,43 @@
+# Jekyll workshop-template https://github.com/evanwill/workshop-template
+# based on minima theme https://github.com/jekyll/minima
+
+# Notes: 
+# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+# - pages with "nav: true" in front matter will be in header nav
+# - use environment variable on build command to include analytics: JEKYLL_ENV=production jekyll build
+
+# Site settings
+title: Get Git!
+description: > 
+  Learn about Git version control and GitHub. 
+keywords: "git, github, workshop, version control"
+
+# author settings for cc-by
+author: Evan Will
+pub_year: 2018
+github_username: evanwill
+twitter_username: EvanPeterWill
+
+# add the full url for the github repository
+repo: "https://github.com/evanwill/get-git"
+
+# site urls
+# add the url for the domain,
+# on gh-pages: https://username.github.io 
+url: https://evanwill.github.io
+# add subsection of the domain,
+# on gh-pages this is the name of the repository
+baseurl: /get-git
+
+# add google analytics if desired (and use environment variable on build command)
+google_analytics: UA-74844011-1
+
+# defaults (to simplify front matter)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Build settings
+markdown: kramdown

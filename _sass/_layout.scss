@@ -3,7 +3,7 @@
  */
 .site-header {
   border-top: 5px solid $border-color;
-  border-bottom: 1px solid lighten($border-color, 20%);
+  border-bottom: 1px solid $border-color; //lighten($border-color, 20%);
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
@@ -93,7 +93,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid lighten($border-color, 20%);
+  border-top: 1px solid $border-color; //lighten($border-color, 20%);
   padding: $spacing-unit 0;
 }
 

@@ -29,14 +29,16 @@ nav: true
 The Big ones:
 - [GitHub](https://github.com/) (Free public repos, [gh-pages](https://pages.github.com/) web hosting, huge community, [Github Desktop](https://desktop.github.com/) app, [Education discount](https://education.github.com/))
 - [Bitbucket](https://bitbucket.org/) (Free private repos with limited collaborators, Git or Mercurial, [SourceTree](https://www.atlassian.com/software/sourcetree) app, [Education discount](https://bitbucket.org/product/education))
-- [Gitlab](https://about.gitlab.com/gitlab-com/) (Free public and private repos with unlimited collaborators, [gitlab pages](https://pages.gitlab.io/))
+- [Gitlab](https://about.gitlab.com/gitlab-com/) (Free public and private repos with unlimited collaborators, [gitlab pages](https://pages.gitlab.io/), and focus on DevOps / CI pipelines)
 
 Others:
 - [Gitbook](https://www.gitbook.com/) (focus on creating and publishing books)
 - [Penflip](https://www.penflip.com/) (focus on collaborative writing)
+- [Read the Docs](https://readthedocs.org/) (hooks into a repository to host documentation or text)
 
 # Other Version Control Software
 
 - [Mercurial (Hg)](https://www.mercurial-scm.org/) (some say its easier than Git? See this [intro for artists](https://opensource.com/life/16/2/version-control-isnt-just-programmers))
+- [Bazaar](http://bazaar.canonical.com/en/) (claims to be easier than Git, with user-friendly GUI, used by many big Free software projects)
 - [Subversion](https://subversion.apache.org/) (old standard centralized system)
 - [Fossil](http://www.fossil-scm.org/) (unique web interface based system)

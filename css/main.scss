@@ -2,7 +2,17 @@
 # front matter
 ---
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+@font-face {
+  font-family: 'Noto Sans';
+  src:  url('fonts/notosans-regular-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  src:  url('fonts/sourcecodepro-regular-webfont.woff') format('woff');
+}
+
+$base-font-family: 'Noto Sans', Helvetica, Arial, sans-serif !default;
+$code-font-family: 'Source Code Pro', monospace;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -13,8 +23,10 @@ $spacing-unit:     30px !default;
 $border-color: #424242;
 
 $text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$background-color: #fdf7ef;//#fdfdfd !default;
+$brand-color:      #0388a6; //#2a7ae2 !default;
+$headings-color: #24292e;
+/* git website colors: #f14e32 #0388a6 #413932 #f0efe7 */
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

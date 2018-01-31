@@ -20,7 +20,7 @@ However, it is fast and flexible enough to be used on any scale project, from yo
 
 Rather than storing a series of copies of a file with different filenames, Git captures a snapshot of your project each time you `commit`.
 Try to think of your changes as separate from the document itself.
-The file that you see in your folder is a specific set of edits that create that version, while the complete history of your project is safely stored in a hidden `.git` directory.
+The current file that you see in your folder is made up of a specific set of those changes, while the complete history of your project is safely stored in a hidden `.git` directory.
 
 {% include figure.html file="versions.png" alt="file versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank'>Version Control with Git</a>" width="100%" %}
 

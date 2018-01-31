@@ -10,7 +10,8 @@ Do you have files like `final.txt`, `final_revised.txt`, `final_revised2.txt`, `
 {% include figure.html file="phd101212s.gif" alt="final doc comic" caption="'Piled Higher and Deeper' by Jorge Cham <a href='http://www.phdcomics.com/comics/archive.php?comicid=1531' target='_blank'>www.phdcomics.com</a>" width="60%" %}
 
 This is a "local version control system" which depends on your memory and organization to avoid errors and utter confusion.
-Automated version control WILL make your life better!
+Luckily, we have software that can handle this task, from the basic "track changes" to big centralized systems such as [SVN](https://subversion.apache.org/).
+Automated version control **WILL** make your life better!
 
 ## Why Git?
 
@@ -18,12 +19,13 @@ Automated version control WILL make your life better!
 However, it is fast and flexible enough to be used on any scale project, from your personal notes to your research lab's code--and offers many benefits beyond "track changes".
 
 Rather than storing a series of copies of a file with different filenames, Git captures a snapshot of your project each time you `commit`.
-The complete history of your project is safely stored in a hidden `.git` repository.
-Everything is recorded with checksums to ensure no information can be lost or corrupted without detection. 
-Each commit records the creator, email, and changes made, providing transparency and credit for your project.
-Unlike "track changes", this history stays with the repository permanently.
+Try to think of your changes as separate from the document itself.
+The file that you see in your folder is a specific set of edits that create that version, while the complete history of your project is safely stored in a hidden `.git` directory.
 
 {% include figure.html file="versions.png" alt="file versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank'>Version Control with Git</a>" width="100%" %}
+
+Each commit records the creator, email, and changes made, providing transparency and credit for your project, as well as, checksums to ensure no information can be lost or corrupted without detection.
+Unlike "track changes", this history stays with the repository permanently.
 
 Git is distributed meaning every copy of a repository contains the complete history. 
 This is great for collaboration, fast performance, and offline usage.
@@ -32,10 +34,10 @@ Git can efficiently branch, diff, and automatically merge different sets of chan
 {% include figure.html file="branch-merge.png" alt="branch and merge versions" caption="Adapted from: Software Carpentry, <a href='http://swcarpentry.github.io/git-novice/01-basics/' target='_blank'>Version Control with Git</a>" width="100%" %}
 
 With Git you can make changes and experiment without fear!
-When committing to a repository Git only adds data, it never deletes information. 
+Committing to a repository Git only adds data, it never deletes information. 
 This makes almost everything undoable!
 
-> Git repository is often shortened to "repo"
+> A Git repository is often called a "repo"
 
 ## What is GitHub?
 

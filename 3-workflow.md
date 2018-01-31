@@ -7,11 +7,11 @@ nav: true
 
 In general, the basic routine is: 
 
-Update your local repository with
+Update your local repository with: 
 
-`git clone...` or `git pull`
+`git pull` (or grab a copy with `git clone`)
 
-Edit the files locally, then
+Edit the files and folders locally, then:
 
 ```
 git add...
@@ -23,29 +23,30 @@ git push...
 
 {% include figure.html file="workflow.png" alt="git workflow" width="100%" %}
 
-Let's go through the basic commands!
+Let's walk through the basic commands!
 
-> Always remember Git has good built in help, so add `--help` to any command to learn more.
+> Always remember: Git has good built in help, so add `--help` to any command to learn more.
 
 ## git clone
 
-To copy a repository from GitHub, use `git clone`.
-Go to your test GitHub repository, click the green "Clone or download" button, and copy the URL.
+To download a copy of a repository from GitHub, use `git clone`.
+
+Go to the test GitHub repository you created during the [last step]({{ '/2-setup.html' | absolute_url }}), click the green "Clone or download" button, and copy the URL.
 In your terminal, navigate to your desired location (I suggest a folder named "GitHub" in your Documents directory). 
-Type `git clone` and paste in your URL (right click or shift+Ctrl+V).
+Type `git clone` and paste in your URL (right click or `shift+Ctrl+V`).
 For example:
 
 ```
 git clone https://github.com/uidaholib/git-example.git
 ```
 
-Clone will download a full copy of the repository to your local machine and record its origin on GitHub (if you get an error on Git Bash, check this [note](notes/gitbash-bug.html)). 
+Clone will download a full copy of the repository to your local machine and record its origin on GitHub. 
 This ensures there is a connection so you can `push` your changes to GitHub or `fetch` updates.
 
 Your cloned repo is simply a folder of files, with a hidden `.git` directory that stores the full history. 
-`.git` is hidden for a reason--you don't need to know anything about it!
+The `.git` folder is hidden for a reason--you don't need to know anything about it!
 The rest of the directory is the same as any other folder on your computer. 
-You can edit, create, delete, or move files just as you normally would--but now Git is watching.
+You can edit, create, delete, or move files just as you normally would--but now Git is watching!
 
 ## git status
 
@@ -73,16 +74,17 @@ git add notes.txt
 git status
 ```
 
-Files can be added individually by name, or use the flag `git add -A` to add all changed files at once.
+Files can be added individually by name, or use the flag `git add -A` to stage all currently changed files at once.
+Only the changes to files in the "staging area" will be saved in the next commit.
 
 ## git commit
 
 We changed a file, we added it to the staging area, and now we are ready to take a snapshot storing away these changes forever.
 Let's `commit`!
 
-Each `commit` records a snapshot of the state of the full repository along with the user name, timestamp, and message of the committer.
-A message is required! 
-It is your note to posterity so you can remember why you made changes in the future (for style tips, see [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit)).
+Each `commit` records the state of the full repository along with the timestamp, user name, email, and message of the committer.
+*A message is required!*
+It is your note to posterity so you can remember why you made changes in the future (for style tips, see [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit){:target="_blank"}).
 
 ```
 git commit -m "add notes file"
@@ -114,13 +116,15 @@ git status
 
 Notice that `git status` now says "your branch is ahead of origin/master".
 Origin/master is the standard way to name the main branch of the remote repository.
-We finished our changes to the repository locally, now we have to add them to the version hosted on GitHub using `push`.
+We finished our changes to the repository locally, now we want to add them to the remote hosted on GitHub using `push`.
 
 ```
 git push origin master
 ```
 
 Push sends only the changes, so it is very efficient network use.
+Using `origin master` specifies which branch we want to push to in the remote repository. 
+However, in most cases the command can be shortened to just `git push`.
 
 ## Review 
 
@@ -137,5 +141,5 @@ git push
 ```
 
 > Depending on your workflow, you may want to `git fetch` rather than `pull`.
-> `git fetch` = update repository from remote.
-> `git pull` = `fetch` + `merge`, i.e. update from remote and combine with local work.
+> `git fetch` updates repository from remote, but does not change the local files.
+> `git pull` is short for `fetch` + `merge`, thus will update from the remote and combine that new information with your local work.

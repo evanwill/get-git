@@ -16,6 +16,7 @@ nav: true
 
 # Recent articles
 
+- Blischak JD, Davenport ER, Wilson G (2016) A Quick Introduction to Version Control with Git and GitHub. PLoS Comput Biol 12(1): e1004668. <https://doi.org/10.1371/journal.pcbi.1004668>
 - [Art of the Commit](http://alistapart.com/article/the-art-of-the-commit)
 - [Push, Pull, Fork: GitHub for Academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
 - [Why you should use GitHub: Lessons for the classroom and newsroom](http://www.storybench.org/use-github-lessons-classroom-newsroom/)
@@ -27,8 +28,8 @@ nav: true
 # Repository hosting services
 
 The Big ones:
-- [GitHub](https://github.com/) (Free public repos, [gh-pages](https://pages.github.com/) web hosting, huge community, [Github Desktop](https://desktop.github.com/) app, [Education discount](https://education.github.com/))
-- [Bitbucket](https://bitbucket.org/) (Free private repos with limited collaborators, Git or Mercurial, [SourceTree](https://www.atlassian.com/software/sourcetree) app, [Education discount](https://bitbucket.org/product/education))
+- [GitHub](https://github.com/) (Free public repos, [gh-pages](https://pages.github.com/) web hosting, huge community, [Github Desktop](https://desktop.github.com/) GUI app, [Education discount](https://education.github.com/))
+- [Bitbucket](https://bitbucket.org/) (Free private repos with limited collaborators, Git or Mercurial, [SourceTree](https://www.atlassian.com/software/sourcetree) GUI app, [Education discount](https://bitbucket.org/product/education))
 - [Gitlab](https://about.gitlab.com/gitlab-com/) (Free public and private repos with unlimited collaborators, [gitlab pages](https://pages.gitlab.io/), and focus on DevOps / CI pipelines)
 
 Others:
@@ -39,6 +40,6 @@ Others:
 # Other Version Control Software
 
 - [Mercurial (Hg)](https://www.mercurial-scm.org/) (some say its easier than Git? See this [intro for artists](https://opensource.com/life/16/2/version-control-isnt-just-programmers))
-- [Bazaar](http://bazaar.canonical.com/en/) (claims to be easier than Git, with user-friendly GUI, used by many big Free software projects)
-- [Subversion](https://subversion.apache.org/) (old standard centralized system)
+- [Bazaar](http://bazaar.canonical.com/en/) (claims to be easier than Git, with user-friendly GUI, used by many Free software projects)
+- [Subversion](https://subversion.apache.org/) (old standard centralized system, still used by many big projects)
 - [Fossil](http://www.fossil-scm.org/) (unique web interface based system)

@@ -2,6 +2,7 @@
 title: 4-History
 nav: true
 ---
+
 # History
 
 So `commit` stores away all this history, what can we do with it?
@@ -9,7 +10,7 @@ So `commit` stores away all this history, what can we do with it?
 ## git log
 
 Check how far we have come! 
-Take a look at the repository's history of commits:
+Take a look at your repository's history of commits:
 
 ```
 git log
@@ -40,7 +41,7 @@ git commit -m "testing diff"
 git diff
 ```
 
-Diff allows us to see what changes were made to the currently unstaged files. 
+`diff` allows us to see what changes were made to the currently unstaged files. 
 It's best to check this before you commit to ensure you know what you are changing.
 Many text editors have a diff visualization built in, which is very handy!
 
@@ -67,8 +68,9 @@ git checkout HEAD notes.txt
 git status
 ```
 
-These two checkouts undid each other!
-If you want to undo, remember to `add` and `commit`.
+Those two checkouts undid each other!
+If you want to save the undo, remember to `add` and `commit`.
+Using this method ensures that we have a record of what was undone, just in case you want to undo your undo.
 
 ```
 git checkout HEAD~1 notes.txt

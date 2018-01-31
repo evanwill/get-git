@@ -59,7 +59,9 @@ git config --global user.email "myemail@gmail.com"
 > This helps ensure integrity and authenticity of the history.
 > Most people keep their email public, but if you are concerned about privacy, check GitHub's tips to [hide your email](https://help.github.com/articles/keeping-your-email-address-private/){:target="_blank"}.
 
-Set your default text editor (Windows "notepad" or nano on Git Bash, Mac "edit -w", Linux "nano -w"):
+Next, set your default text editor. 
+On Linux `"nano -w"` and Mac `"edit -w"`.
+The current versions of the Git-for-Windows installer allow you to set the default during setup--so you probably won't need to do this, but one safe option is `"notepad"`.
 
 ```
 git config --global core.editor "nano -w"

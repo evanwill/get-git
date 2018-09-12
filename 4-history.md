@@ -18,6 +18,9 @@ git log
 git log --oneline
 ```
 
+> When a long text display fills the terminal window, navigate up and down using the arrow keys or Page Down key. 
+> To exit the display, type `q`.
+
 ## git diff
 
 We can compare files with the history.

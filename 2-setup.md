@@ -19,7 +19,7 @@ Follow this demo to explore the basic features of the GitHub interface and start
 3. Click back on the "Code" tab, then click on one of the file names. This will display the file's contents on the page. 
 4. Click the edit pencil on the upper right side of the document to open the web editor. 
 5. Make some changes or add some new text, then scroll down to the "Commit Changes" box. 
-6. Enter a commit message and click the green button to save your edits to the history. You just made your first commit--you used Git!
+6. Enter a commit message and click the green button to save your edits to the history. You just made your first commit--you used Git! You added one snapshot to the history.
 7. Click back to the "Code" tab and "Commits" to view your updated history.
 
 > Note: GitHub allows [Markdown](https://guides.github.com/features/mastering-markdown/){:target="_blank"} formating for READMEs and comments through out the site.
@@ -37,6 +37,7 @@ To create a new remote repository:
 
 > Every GitHub repo has handy project management features builtin. 
 > Check the [Issues](https://guides.github.com/features/issues/){:target="_blank"}, Projects, and Wiki tabs to start organizing your work!
+> To delete a repository, click on the "Settings" tab and scroll down to the bottom to find the delete button.
 
 ## Git Config
 
@@ -48,7 +49,7 @@ So fire up your favorite shell, terminal, or Git Bash to get started!
 Some initial setup is necessary the first time you use Git on a computer.
 You will use these commands only once, unless you want to change something.
 
-Set your name and email:
+Set your name and email (matching your GitHub account):
 
 ```
 git config --global user.name "Evan Will"

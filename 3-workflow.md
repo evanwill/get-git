@@ -5,11 +5,11 @@ nav: true
 
 # Basic Git Workflow
 
-In general, the basic routine is: 
+In general, the basic routine is, 
 
 Update your local repository with: 
 
-`git pull` (or grab a copy with `git clone`)
+`git pull` (or grab a new copy with `git clone`)
 
 Edit the files and folders locally, then:
 

@@ -88,3 +88,10 @@ Once published your website will be [username].github.io/[repositoryname]
 For example, https://evanwill.github.io/get-git/
 
 Check out this intro workshop [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/) for more info.
+
+## Citable Code
+ 
+GitHub repos can be integrated with Zenodo to issue a DOI.
+DOI are a persistent identifier used in academic writing to cite articles and other works.
+Having a DOI for your code makes it easier to track citations and impact. 
+Learn how at [Making Your Code Citable](https://guides.github.com/activities/citable-code/).

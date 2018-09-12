@@ -13,6 +13,7 @@ nav: true
     - [Git lesson](http://swcarpentry.github.io/git-novice/){:target="_blank"}
 - [GitHub Guides](https://guides.github.com/){:target="_blank"}, check out Hello World to learn GitHub features
 - Bitbucket [Git Tutorials](https://www.atlassian.com/git/tutorials){:target="_blank"}
+- Get Git [command quick ref]({{ '/cheatsheet.html' | absolute_url }})
 
 # Recent articles
 

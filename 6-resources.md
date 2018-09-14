@@ -5,15 +5,15 @@ nav: true
 
 # Learning resources
 
-- `git --help`
-- [Try Git](https://try.github.io/){:target="_blank"}, 15 min online tutorial
+- `git --help` (remember, lots of built in help at your finger tips!)
 - The [Git Book](https://git-scm.com/book/en/v2){:target="_blank"}
+- [GitHub Guides](https://guides.github.com/){:target="_blank"}, check out Hello World to learn GitHub features, or [GitHub Training](https://services.github.com/on-demand/)
 - Software Carpentry:
     - [Unix Shell](http://swcarpentry.github.io/shell-novice/01-intro/){:target="_blank"}
     - [Git lesson](http://swcarpentry.github.io/git-novice/){:target="_blank"}
-- [GitHub Guides](https://guides.github.com/){:target="_blank"}, check out Hello World to learn GitHub features
 - Bitbucket [Git Tutorials](https://www.atlassian.com/git/tutorials){:target="_blank"}
 - Get Git [command quick ref]({{ '/cheatsheet.html' | absolute_url }})
+- [Try Git](https://try.github.io/){:target="_blank"}, collection of resources (used to be an awesome 15 min tutorial, but no more...?)
 
 # Recent articles
 

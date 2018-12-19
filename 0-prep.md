@@ -18,7 +18,7 @@ They provide some great introductory [tutorials](https://guides.github.com/){:ta
 Git is a version control system, a piece of software on your computer. 
 Installing it is pretty easy:
 
-- **Windows:** install [Git for Windows](https://git-for-windows.github.io/){:target="_blank"} using the default options, except when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a great terminal that lets you use UNIX style commands and utilities on Windows. *Note:* if you have issues with needing admin privileges to install, please download the Full version of [cmder](http://cmder.net/) instead, which includes a portable version of Git for Windows. Simply unzip the cmder package to a logical location, such as `C:\cmder`.
+- **Windows:** install [Git for Windows](https://git-for-windows.github.io/){:target="_blank"} using the default options, except when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a great terminal that lets you use UNIX style commands and utilities on Windows.
 - **Mac:** check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, download the official [Mac installer](https://git-scm.com/downloads){:target="_blank"}.
 - **Linux:** install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
 

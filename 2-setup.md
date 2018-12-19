@@ -58,10 +58,10 @@ git config --global user.email "myemail@gmail.com"
 
 > Your email and user name is recorded with every commit.
 > This helps ensure integrity and authenticity of the history.
-> Most people keep their email public, but if you are concerned about privacy, check GitHub's tips to [hide your email](https://help.github.com/articles/keeping-your-email-address-private/){:target="_blank"}.
+> Most people keep their email public, but if you are concerned about privacy, check GitHub's tips to [hide your email](https://help.github.com/articles/about-commit-email-addresses/){:target="_blank"}.
 
 Next, set your default text editor. 
-The current versions of the Git-for-Windows installer allow you to set the default editor during [setup]({{ '/0-prep.html' | relative_url }}), so Windows users should not need to complete this step and should have nano set as the default editor.
+The current versions of the Git for Windows installer allow you to set the default editor during [setup]({{ '/0-prep.html' | relative_url }}), so Windows users should not need to complete this step and should have nano set as the default editor.
 In general Linux and Mac users should set their Git `core.editor` to `"nano -w"` as well.
 Nano is a basic command line editor that is *fairly* easy to use.
 Set the default editor with this command:

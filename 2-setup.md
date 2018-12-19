@@ -61,8 +61,10 @@ git config --global user.email "myemail@gmail.com"
 > Most people keep their email public, but if you are concerned about privacy, check GitHub's tips to [hide your email](https://help.github.com/articles/keeping-your-email-address-private/){:target="_blank"}.
 
 Next, set your default text editor. 
-On Linux `"nano -w"` and Mac `"edit -w"`.
-The current versions of the Git-for-Windows installer allow you to set the default during setup--so you probably won't need to do this, but one safe option is `"notepad"`.
+The current versions of the Git-for-Windows installer allow you to set the default editor during [setup]({{ '/0-prep.html' | relative_url }}), so Windows users should not need to complete this step and should have nano set as the default editor.
+In general Linux and Mac users should set their Git `core.editor` to `"nano -w"` as well.
+Nano is a basic command line editor that is *fairly* easy to use.
+Set the default editor with this command:
 
 ```
 git config --global core.editor "nano -w"

@@ -72,8 +72,8 @@ git config --global core.editor "nano -w"
 
 > Git opens the default editor to ask for commit messages. 
 > You are most likely to encounter it when merging.
-> If you don't set a default editor, Git will use the default default--which might be surprising if you are not used to terminal-based editors such as [VIM](http://www.vim.org/){:target="_blank"}. 
-> If you are stuck in VIM and can't figure out how to escape, type `:wq` to save and quit ([VIM quick ref](https://w3.cs.jmu.edu/bernstdh/Web/common/help/vim.php){:target="_blank"}, and don't worry, you are [not alone in confusion](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/){:target="_blank"}).
+> If you don't set a default editor, Git will use the default default--which might be surprising if you are not used to terminal-based editors such as [Vim](http://www.vim.org/){:target="_blank"}. 
+> If you are stuck in Vim and can't figure out how to escape, type `Esc` then `:wq` then `Enter` to save and quit ([VIM quick ref](https://w3.cs.jmu.edu/bernstdh/Web/common/help/vim.php){:target="_blank"}, and don't worry, you are [not alone in confusion](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/){:target="_blank"}).
 
 With our test repository ready and Git configured, we can move on to the basic [Git workflow]({{ '/3-workflow.html' | absolute_url }})!
 

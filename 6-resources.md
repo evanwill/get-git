@@ -12,6 +12,7 @@ nav: true
 - Bitbucket [Git Tutorials](https://www.atlassian.com/git/tutorials){:target="_blank"}
 - Get Git [command quick ref]({{ '/cheatsheet.html' | absolute_url }})
 - [Try Git](https://try.github.io/){:target="_blank"}, collection of resources (used to be an awesome 15 min tutorial, but is now a collection of resources)
+- [Git and GitHub for Poets](https://youtu.be/BCQHnlnPusY) video series
 
 # Recent articles
 

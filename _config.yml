@@ -16,7 +16,6 @@ keywords: "git, github, workshop, version control"
 author: Evan Will
 pub_year: 2018
 github_username: evanwill
-twitter_username: EvanPeterWill
 
 # add the full url for the github repository
 repo: "https://github.com/evanwill/get-git"

@@ -84,7 +84,7 @@ Let's `commit`!
 
 Each `commit` records the state of the full repository along with the timestamp, user name, email, and message of the committer.
 *A message is required!*
-It is your note to posterity so you can remember why you made changes in the future (for style tips, see [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit){:target="_blank"}).
+It is your note to posterity so you can remember why you made changes in the future (for style tips, see [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit){:target="_blank" rel="noopener"}).
 
 ```
 git commit -m "add notes file"

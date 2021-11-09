@@ -15,7 +15,7 @@ Automated version control **WILL** make your life better!
 
 ## Why Git?
 
-[Git](https://git-scm.com/){:target="_blank"} is a [free](https://www.gnu.org/philosophy/free-sw.en.html){:target="_blank"}, [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control){:target="_blank"} system originally developed for coordinating huge software development projects (specifically the [Linux kernel](https://www.kernel.org/){:target="_blank"}). 
+[Git](https://git-scm.com/){:target="_blank" rel="noopener"} is a [free](https://www.gnu.org/philosophy/free-sw.en.html){:target="_blank" rel="noopener"}, [distributed version control](https://en.wikipedia.org/wiki/Distributed_version_control){:target="_blank" rel="noopener"} system originally developed for coordinating huge software development projects (specifically the [Linux kernel](https://www.kernel.org/){:target="_blank" rel="noopener"}). 
 However, it is fast and flexible enough to be used on any scale project, from your personal notes to your research lab's code--and offers many benefits beyond "track changes".
 
 Rather than storing a series of copies of a file with different filenames, Git captures a snapshot of your project each time you `commit`.
@@ -42,7 +42,7 @@ This makes almost everything undoable!
 
 ## What is GitHub?
 
-[GitHub](https://github.com/){:target="_blank"} is a popular web service for hosting Git repositories--with benefits!
+[GitHub](https://github.com/){:target="_blank" rel="noopener"} is a popular web service for hosting Git repositories--with benefits!
 It provides a handy web interface for editing and collaborating on repos, as well as, built in project management features and static web hosting.
 Accounts are free for public repositories--private repositories are available on a subscription pricing model.
 

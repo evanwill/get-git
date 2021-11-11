@@ -6,6 +6,8 @@ title: Home
 
 ## *with Git and GitHub*
 
+*Note:* an updated version of this workshop with videos is available at [get-git-b](https://evanwill.github.io/get-git-b/)!
+
 {% include figure.html file="xkcd_git_2x.png" alt="Git xkcd" caption="<a href='https://xkcd.com/1597/' target='_blank'>Git, xkcd</a>" width="60%" %}
 
 Do you have files like `final.txt`, `final_revised.txt`, `final_revised2.txt`, `final_revised2_revised.txt`?

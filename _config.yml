@@ -28,8 +28,6 @@ url: https://evanwill.github.io
 # on gh-pages this is the name of the repository
 baseurl: /get-git
 
-# add google analytics if desired (and use environment variable on build command)
-google-analytics-id: G-7N13F1ZJNR
 
 # defaults (to simplify front matter)
 defaults:
